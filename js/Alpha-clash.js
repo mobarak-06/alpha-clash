@@ -11,8 +11,8 @@ function handleKeyboardButtonPress(event){
 const playerPressed = event.key;
 console.log('player pressed', playerPressed);
 //  game stop
-if(playerPressed === 'escape'){
-    gameOver()
+if (playerPressed === 'Escape') {
+    gameOver();
 }
 
 // get the expected to press
